@@ -30,32 +30,40 @@
 .text-area{
     position:absolute;
     bottom:30%;
-    left:20%;
+    left:10%;
+}
+.text-area h1{
+    font-size:42px;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 
 /* container 1 css */
 .container1{
     padding:40px 0px 20px 0px;
-    background-color: aqua;
+    background-color: rgb(84, 221, 239);
+    padding:100px 0px;
 }
 .container1 .insside-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    width:70%;
+    width:80%;
     height:100%;
     margin:0 auto;
 }
+.container1 .insside-container .head-text{
+    width:90%;
+}
 .container1 .insside-container button{
-    width:140px;
+    width:120px;
     height:40px;
     font-size:18px;
     border: none;
     background-color: rgb(4, 247, 247);
     box-shadow:2px 2px 5px rgb(0,0,0,0.7);
     cursor: pointer;
+    border-radius:4px;
 }
 .container1 .insside-container button:hover{
     transform: scale(0.9);
@@ -70,8 +78,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding:50px;
 }
-
+.container2 .head-text h1{
+    margin-bottom:30px;
+}
+.container2 .head-text p{
+    text-align: center;
+}
 .container2 .card-container{
     width: 90%;
     display: flex;
@@ -83,7 +97,7 @@
 }
 .container2 .card-container .card-item{
     width:350px;
-    height:300px;
+    height:250px;
 }
 .container2 .card-container .card-item .top-icon{
     font-size: 60px;
@@ -93,18 +107,23 @@
     margin-left:130px;
 }
 
-.container2 .card-container .card-item .card-material{
+.card-material{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width:100%;
     height:70%;
     border-radius: 4px;
-    margin-top:35px;
-    background-color: rgb(226, 249, 243);
-    line-height: 25px;
-    display: grid;
-    place-items: center;
-    padding:0px 20px;
+    margin-top:20px;
+    background-color: rgb(246, 250, 250);
+    padding:0px 10px;
     box-sizing: border-box;
     box-shadow:2px 2px 5px rgb(0,0,0,0.3);
+}
+.card-material p{
+    margin-top:10px;
+   text-align: center;
 }
 
 /* container 3 css */
@@ -117,8 +136,8 @@
    
 }
 .container3 .img-section{
-    width:55%;
-    height:350px;
+    width:50%;
+    height:300px;
     box-sizing: border-box;
 }
 .container3 .img-section img{
@@ -127,11 +146,11 @@
     border-radius:4px;
 }
 .container3 .our-team{
-    width:45%;
+    width:50%;
+    height:300px;
     padding:50px;
     box-sizing: border-box;
-    background-color: rgb(226, 249, 243);
-    
+    background-color:  rgb(246, 250, 250);
 }
 .container3 .our-team h4{
     font-size:30px;
@@ -146,7 +165,7 @@
     border-radius: 4px;
     cursor: pointer;
     box-shadow:2px 2px 5px rgb(0,0,0,0.3);
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .container3 .our-team button:hover{
     transform: scale(0.9);
@@ -160,4 +179,8 @@
         width:100%;
     }    
 }
-
+@media (max-width:900px){
+    .container1 .insside-container{
+        flex-wrap: wrap;
+    }
+}
