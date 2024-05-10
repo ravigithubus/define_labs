@@ -42,7 +42,7 @@
 .container1{
     padding:40px 0px 20px 0px;
     background-color: rgb(84, 221, 239);
-    padding:100px 0px;
+    padding:70px 0px;
 }
 .container1 .insside-container{
     display: flex;
@@ -54,6 +54,10 @@
 }
 .container1 .insside-container .head-text{
     width:90%;
+}
+.container1 .insside-container .head-text h2{
+    
+    margin-bottom:20px;
 }
 .container1 .insside-container button{
     width:120px;
@@ -171,7 +175,7 @@
     transform: scale(0.9);
 }
 
-@media (max-width:1050px){
+@media (max-width:900px){
    .container3 .img-section{
         width:100%;
     }

@@ -4,7 +4,7 @@ footer{
     flex-wrap: wrap;
     color: #ffff;
     justify-content: center;
-    padding:0px auto;
+    padding:50px 0px;
 }
 .footer-content{
     width:300px;
@@ -23,11 +23,15 @@ footer{
     text-decoration: none;
     color: inherit;
 }
+.footer-content p{
+    line-height:30px;
+    padding-right:20px;
+}
 #pop-up{
     display: none;
     position: fixed;
     top:100px;
-    left:12%;
+    left:20%;
     width:50%;
     height:60%;
     background-color: #ffff;
