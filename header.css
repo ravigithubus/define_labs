@@ -24,7 +24,7 @@ header{
     border-right:2px solid rgb(51, 50, 50);
     border-bottom:2px solid rgb(51, 50, 50);
     transform: rotate(45deg);
-    margin: 5px;
+    margin:5px;
 }
 .drop-down{
     display: none;

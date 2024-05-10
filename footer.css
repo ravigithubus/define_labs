@@ -32,14 +32,23 @@ footer{
 }
 footer .base-line{
     display: flex;
-    justify-content: end;
     align-items: center;
     background-color:rgba(22, 21, 21, 0.8);
     height:60px;
     color: #ffff;
 }
+.icon-section{
+    width:98%;
+    display: flex;
+    justify-content: space-evenly;
+}
 footer .base-line .up-icon{
     color: rgb(12, 171, 171);
+}
+footer .base-line img{
+    width:20px;
+    height:20px;
+    margin:0px 10px;
 }
 #pop-up{
     display: none;
