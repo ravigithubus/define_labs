@@ -1,0 +1,41 @@
+footer{
+    background-color:rgba(0,0,0,0.8);
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffff;
+    justify-content: center;
+    padding:0px auto;
+}
+.footer-content{
+    width:300px;
+}
+.footer-content h3{
+    color: rgb(12, 171, 171);
+}
+.footer-content ul{
+    padding:0px;
+    list-style: none;
+}
+.footer-content ul li {
+    padding:5px 0px;
+}
+.footer-content ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+#pop-up{
+    display: none;
+    position: fixed;
+    top:100px;
+    left:12%;
+    width:50%;
+    height:60%;
+    background-color: #ffff;
+    padding:50px;
+    box-shadow:2px 2px 5px rgba(0,0,0,0.8);
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+#pop-up button{
+    float: right;
+}

@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.image-slider{
+    width:100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+}
+.img-container{
+    width:100%;
+    display: flex;
+    animation: sliding-image infinite  4000ms;
+}
+.image-slider .img-container img{
+    width:100%;
+    height:100%;
+}
+@keyframes sliding-image {
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+.text-area{
+    position:absolute;
+    bottom:30%;
+    left:20%;
+}
+
+
+/* container 1 css */
+.container1{
+    padding:40px 0px 20px 0px;
+    background-color: aqua;
+}
+.container1 .insside-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:70%;
+    height:100%;
+    margin:0 auto;
+}
+.container1 .insside-container button{
+    width:140px;
+    height:40px;
+    font-size:18px;
+    border: none;
+    background-color: rgb(4, 247, 247);
+    box-shadow:2px 2px 5px rgb(0,0,0,0.7);
+    cursor: pointer;
+}
+.container1 .insside-container button:hover{
+    transform: scale(0.9);
+}
+
+/* container2 css */
+
+.container2 .head-text{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 .card-container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+}
+.container2 .card-container .card-item{
+    width:350px;
+    height:300px;
+}
+.container2 .card-container .card-item .top-icon{
+    font-size: 60px;
+    color: rgb(9, 173, 173);
+    padding-bottom: 10px;
+    border-bottom:2px solid rgb(9, 173, 173);
+    margin-left:130px;
+}
+
+.container2 .card-container .card-item .card-material{
+    width:100%;
+    height:70%;
+    border-radius: 4px;
+    margin-top:35px;
+    background-color: rgb(226, 249, 243);
+    line-height: 25px;
+    display: grid;
+    place-items: center;
+    padding:0px 20px;
+    box-sizing: border-box;
+    box-shadow:2px 2px 5px rgb(0,0,0,0.3);
+}
+
+/* container 3 css */
+.container3{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding-top:100px;
+   
+}
+.container3 .img-section{
+    width:55%;
+    box-sizing: border-box;
+}
+.container3 .img-section img{
+    width:100%;
+    border-radius:4px;
+}
+.container3 .our-team{
+    width:45%;
+    padding:50px;
+    box-sizing: border-box;
+    background-color: rgb(226, 249, 243);
+    
+}
+.container3 .our-team h4{
+    font-size:30px;
+}
+.container3 .our-team button{
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(4, 247, 247);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow:2px 2px 5px rgb(0,0,0,0.3);
+}
+.container3 .our-team button:hover{
+    transform: scale(0.9);
+}
+
+@media (max-width:1050px){
+   .container3 .img-section{
+        width:100%;
+    }
+    .container3 .our-team{
+        width:100%;
+    }    
+}
+

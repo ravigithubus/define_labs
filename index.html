@@ -1,0 +1,158 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="section.css">
+        <link rel="stylesheet" href="footer.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+       <script src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <!-- <img src="./images/logo.png" alt="" class="logo">
+            <div class="nav-expand">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+            <ul class="nav-bar" id="nav">
+                
+                
+            </ul> -->
+            <nav>
+                <ul class='nav-bar'>
+                    <li class='logo'><a href='#'><img src="./images/logo.png" alt="" class="logo"></a></li>
+                    <input type='checkbox' id='check' />
+                    <span class="menu">
+                        <li><a href="">HOME</a></li>
+                <li id="about-us">
+                    ABOUT US
+                    <div class="expand-more"></div>
+                    <div class="drop-down">
+                        <a href="#">COMPANY</a>
+                        <a href="#">OUR TEAM</a>
+                        <a href="#">NEWS</a>
+                        <a href="#">INVESTORS</a>
+                    </div>
+                    </li>
+                    <li>
+                        <a href="#services">SERVICES</a>
+                     </li>
+                     <li>
+                         <a href="#portfolio">PORTFOLIO</a></li>
+                     <li><a href="">PRICING</a></li>
+                     <li><a href="">CONTACT</a></li>
+                        <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    </span>
+                    <label for="check" class="open-menu"><span class="material-symbols-outlined">menu</span></i></label>
+                </ul>
+            </nav>
+        </header>
+        <section> 
+            <div class="image-slider">
+                <div class="img-container">
+                    <img src="./images/slider-one.jpg" alt="">
+                    <img src="./images/slider-two.jpg" alt="">
+                </div>
+                <div class="text-area">
+                    <h1>INNOVATION</h1>
+                    <P>We Create The Opportunities</P>
+                </div>
+            </div>
+            <div class="container1">
+                <div class="insside-container">
+                    <div class="head-text">
+                        <h2>Partner with Business Leaders</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae tenetur ipsam quis cum debitis fuga aut facere, porro excepturi commodi harum laboriosam ullam ut consequuntur. Voluptatum exercitationem ab itaque!</p>
+                    </div>
+                    <button onclick="readMore()">Read More</button>
+                </div>
+            </div>
+            <div class="container2" id="services">
+                <div class="head-text">
+                    <h1>OUR SERVICES</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae tenetur ipsam quis cum debitis fuga aut facere, porro excepturi commodi harum laboriosam ullam ut consequuntur. Voluptatum exercitationem ab itaque! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid unde maxime architecto. At asperiores accusamus ipsam rem ea sed debitis aperiam, quae beatae, facilis impedit quis incidunt pariatur neque nobis.</p>
+                </div>
+                <div class="card-container">
+                    <div class="card-item">
+                        <span class="material-symbols-outlined top-icon">
+                            notifications
+                            </span> 
+                        <div class="card-material">
+                            <h2>Consulting</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae tenetur ipsam quis cum debitis fuga aut facere, porro excepturi ntur. </p>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <span class="material-symbols-outlined top-icon">
+                            strategy
+                            </span>
+                            <div class="card-material">
+                                <h2>Stratergy</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae tenetur ipsam quis cum debitis fuga aut facere, porro excepturi</p>
+                            </div>
+                    </div>
+                    <div class="card-item">
+                        <span class="material-symbols-outlined top-icon">
+                            emoji_objects
+                            </span>
+                            <div class="card-material">
+                                <h2>Analysis</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae tenetur ipsam quis cum </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container3" id="portfolio">
+                <div class="img-section">
+                    <img src="./images/service.jpg" alt="">
+                </div>
+                <div class="our-team">
+                    <h4>Our Team</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum mollitia doloremque animi quod, corrupti vitae, suscipit ipsum similique amet quae fugit quam sapiente pariatur laborum quisquam maxime! Impedit, placeat distinctio?</p>
+                    <button>
+                        Our Portfolio
+                    </button>
+                </div>
+                
+            </div>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <h3>Our Contact</h3>
+                <b>Bootstrap Company Inc</b><br>
+                JC Main Road,Near Shinde tower<br>
+                Pin-216543 NewYork US  <br><br>
+                (123)456-789-1255-12587 <br>
+                emai@domainname.com
+            </div>
+            <div class="footer-content">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="">Latest Event</a></li>
+                    <li><a href="">Terms and Condition</a></li>
+                    <li><a href="">Privacy policy</a></li>
+                    <li><a href="">Career</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-content">
+                <h3>Latest Post</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae tenetur ipsam quis cum debitis fuga aut facere,</p>
+            </div>
+            <div class="footer-content">
+                <h3>Recent News</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi repudiandae tenetur ipsam quis cum debitis fuga aut facere</p>
+            </div>
+        </footer>
+
+        <div id="pop-up">
+            <button onclick="closeButton()">Close</button>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci eum accusantium maiores, beatae vitae quia nam aut repellendus? Laudantium molestias illo hic, ullam voluptatem, corporis dicta quas expedita nemo doloremque deleniti suscipit, reiciendis ipsa perspiciatis unde maxime recusandae est alias facilis aperiam dolorem labore ipsum ex. Eligendi quisquam in rem modi voluptatem impedit deleniti. Ab ipsum a porro. Tempore, laborum? Distinctio saepe fugiat corrupti, cum tempore iure enim. Eum dolorum eius et. Deserunt error vero quisquam inventore aspernatur impedit, aliquam adipisci illum culpa, ducimus quae rerum suscipit voluptatem debitis explicabo consectetur commodi harum ipsum sint 
+        </div>
+        
+    </body>
+    </html>
