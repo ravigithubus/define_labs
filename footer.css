@@ -65,4 +65,8 @@ footer .base-line img{
 }
 #pop-up button{
     float: right;
+    width:80px;
+    height:30px;
+    border-radius:4px;
+    font-size:18px;
 }
