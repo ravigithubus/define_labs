@@ -53,8 +53,8 @@ footer .base-line img{
 #pop-up{
     display: none;
     position: fixed;
-    top:100px;
-    left:20%;
+    top:20%;
+    left:25%;
     width:50%;
     height:60%;
     background-color: #ffff;
@@ -64,7 +64,9 @@ footer .base-line img{
     overflow-y: scroll;
 }
 #pop-up button{
-    float: right;
+    position: absolute;
+    bottom:10px;
+    left:45%;
     width:80px;
     height:30px;
     border-radius:4px;
